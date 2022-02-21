@@ -4,8 +4,8 @@ prerequisite for this project
 2. Rabbit MQ
 
 # build Rabbit MQ Env in Docker
-there is a docker-compose.yml file in the root folder of the project.
-by this command "docker-compose up". docker build rabbit mq for you.
+There is a docker-compose.yml file in the root folder of the project.
+By this command "docker-compose up" docker build rabbit mq for you.
 application.properties has configuration related to the rabbit mq credentials
 
 # Project Details
@@ -28,5 +28,3 @@ this project has two endpoints
 "statusCode": "000",
 "responseData": "Order Placed Successfully"
 }
-
-for 

@@ -1,0 +1,520 @@
+[2022-02-21 13:08:45.286] [INFO] [org.springframework.boot.StartupInfoLogger]: [55] [Starting DemoApplication using Java 11.0.10 on LDEV-BASHARAT with PID 10464 (D:\Assignment\Melita\demo\target\classes started by basharat.ali in D:\Assignment\Melita\demo)]
+[2022-02-21 13:08:45.299] [INFO] [org.springframework.boot.SpringApplication]: [641] [The following profiles are active: dev]
+[2022-02-21 13:08:45.597] [INFO] [org.springframework.boot.logging.DeferredLog]: [255] [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+[2022-02-21 13:08:45.600] [INFO] [org.springframework.boot.logging.DeferredLog]: [255] [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+[2022-02-21 13:08:49.277] [WARN] [org.springframework.context.support.AbstractApplicationContext]: [591] [Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'rabbitTemplate' defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitTemplateConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration$RabbitTemplateConfiguration; factoryMethodName=rabbitTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitTemplateConfiguration.class]] for bean 'rabbitTemplate': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=configuration; factoryMethodName=rabbitTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/melita/demo/conf/Configuration.class]] bound.]
+[2022-02-21 13:08:49.319] [INFO] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener]: [136] [
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.]
+[2022-02-21 13:08:49.395] [ERROR] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter]: [40] [
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'rabbitTemplate', defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitTemplateConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [com/melita/demo/conf/Configuration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+]
+[2022-02-21 13:16:13.240] [INFO] [org.springframework.boot.StartupInfoLogger]: [55] [Starting DemoApplication using Java 11.0.10 on LDEV-BASHARAT with PID 12232 (D:\Assignment\Melita\demo\target\classes started by basharat.ali in D:\Assignment\Melita\demo)]
+[2022-02-21 13:16:13.241] [INFO] [org.springframework.boot.SpringApplication]: [641] [The following profiles are active: dev]
+[2022-02-21 13:16:13.281] [INFO] [org.springframework.boot.logging.DeferredLog]: [255] [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+[2022-02-21 13:16:13.282] [INFO] [org.springframework.boot.logging.DeferredLog]: [255] [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+[2022-02-21 13:16:13.780] [WARN] [org.springframework.context.support.AbstractApplicationContext]: [591] [Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'rabbitTemplate' defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitTemplateConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration$RabbitTemplateConfiguration; factoryMethodName=rabbitTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitTemplateConfiguration.class]] for bean 'rabbitTemplate': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=configuration; factoryMethodName=rabbitTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/melita/demo/conf/Configuration.class]] bound.]
+[2022-02-21 13:16:13.787] [INFO] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener]: [136] [
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.]
+[2022-02-21 13:16:13.800] [ERROR] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter]: [40] [
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'rabbitTemplate', defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitTemplateConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [com/melita/demo/conf/Configuration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+]
+[2022-02-21 13:17:57.291] [INFO] [org.springframework.boot.StartupInfoLogger]: [55] [Starting DemoApplication using Java 11.0.10 on LDEV-BASHARAT with PID 23280 (D:\Assignment\Melita\demo\target\classes started by basharat.ali in D:\Assignment\Melita\demo)]
+[2022-02-21 13:17:57.292] [INFO] [org.springframework.boot.SpringApplication]: [641] [The following profiles are active: dev]
+[2022-02-21 13:17:57.331] [INFO] [org.springframework.boot.logging.DeferredLog]: [255] [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+[2022-02-21 13:17:57.331] [INFO] [org.springframework.boot.logging.DeferredLog]: [255] [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+[2022-02-21 13:17:57.813] [WARN] [org.springframework.context.support.AbstractApplicationContext]: [591] [Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'rabbitTemplate' defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitTemplateConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration$RabbitTemplateConfiguration; factoryMethodName=rabbitTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitTemplateConfiguration.class]] for bean 'rabbitTemplate': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=configuration; factoryMethodName=rabbitTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/melita/demo/conf/Configuration.class]] bound.]
+[2022-02-21 13:17:57.823] [INFO] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener]: [136] [
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.]
+[2022-02-21 13:17:57.836] [ERROR] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter]: [40] [
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'rabbitTemplate', defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitTemplateConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [com/melita/demo/conf/Configuration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+]
+[2022-02-21 13:28:02.616] [INFO] [org.springframework.boot.StartupInfoLogger]: [55] [Starting DemoApplication using Java 11.0.10 on LDEV-BASHARAT with PID 22756 (D:\Assignment\Melita\demo\target\classes started by basharat.ali in D:\Assignment\Melita\demo)]
+[2022-02-21 13:28:02.616] [INFO] [org.springframework.boot.SpringApplication]: [641] [The following profiles are active: dev]
+[2022-02-21 13:28:02.661] [INFO] [org.springframework.boot.logging.DeferredLog]: [255] [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+[2022-02-21 13:28:02.662] [INFO] [org.springframework.boot.logging.DeferredLog]: [255] [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+[2022-02-21 13:28:04.175] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: [108] [Tomcat initialized with port(s): 8080 (http)]
+[2022-02-21 13:28:04.189] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing ProtocolHandler ["http-nio-8080"]]
+[2022-02-21 13:28:04.190] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting service [Tomcat]]
+[2022-02-21 13:28:04.191] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting Servlet engine: [Apache Tomcat/9.0.56]]
+[2022-02-21 13:28:04.297] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing Spring embedded WebApplicationContext]
+[2022-02-21 13:28:04.298] [INFO] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: [290] [Root WebApplicationContext: initialization completed in 1636 ms]
+[2022-02-21 13:28:04.473] [WARN] [org.springframework.context.support.AbstractApplicationContext]: [591] [Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'countryController' defined in file [D:\Assignment\Melita\demo\target\classes\com\melita\demo\controller\CountryController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.melita.demo.service.CountryService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}]
+[2022-02-21 13:28:04.477] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Stopping service [Tomcat]]
+[2022-02-21 13:28:04.498] [INFO] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener]: [136] [
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.]
+[2022-02-21 13:28:04.528] [ERROR] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter]: [40] [
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.melita.demo.controller.CountryController required a bean of type 'com.melita.demo.service.CountryService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.melita.demo.service.CountryService' in your configuration.
+]
+[2022-02-21 13:30:53.577] [INFO] [org.springframework.boot.StartupInfoLogger]: [55] [Starting DemoApplication using Java 11.0.10 on LDEV-BASHARAT with PID 10032 (D:\Assignment\Melita\demo\target\classes started by basharat.ali in D:\Assignment\Melita\demo)]
+[2022-02-21 13:30:53.578] [INFO] [org.springframework.boot.SpringApplication]: [641] [The following profiles are active: dev]
+[2022-02-21 13:30:53.618] [INFO] [org.springframework.boot.logging.DeferredLog]: [255] [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+[2022-02-21 13:30:53.618] [INFO] [org.springframework.boot.logging.DeferredLog]: [255] [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+[2022-02-21 13:30:54.492] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: [108] [Tomcat initialized with port(s): 8080 (http)]
+[2022-02-21 13:30:54.505] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing ProtocolHandler ["http-nio-8080"]]
+[2022-02-21 13:30:54.505] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting service [Tomcat]]
+[2022-02-21 13:30:54.506] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting Servlet engine: [Apache Tomcat/9.0.56]]
+[2022-02-21 13:30:54.729] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing Spring embedded WebApplicationContext]
+[2022-02-21 13:30:54.729] [INFO] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: [290] [Root WebApplicationContext: initialization completed in 1110 ms]
+[2022-02-21 13:30:55.361] [INFO] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration]: [87] [
+
+Using generated security password: d7d4a598-f4bf-4055-9415-25ecc666c4f6
+]
+[2022-02-21 13:30:55.453] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain]: [51] [Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6957bb95, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a2af047, org.springframework.security.web.header.HeaderWriterFilter@56f88bbd, org.springframework.security.web.authentication.logout.LogoutFilter@865092b, com.melita.demo.conf.JWTAuthorizationFilter@587201e7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44deb351, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4aedef19, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10fc477a, org.springframework.security.web.session.SessionManagementFilter@7d0f5713, org.springframework.security.web.access.ExceptionTranslationFilter@5dd4a5ab, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@577ee98]]
+[2022-02-21 13:30:55.743] [INFO] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: [58] [LiveReload server is running on port 35729]
+[2022-02-21 13:30:55.809] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting ProtocolHandler ["http-nio-8080"]]
+[2022-02-21 13:30:55.830] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: [220] [Tomcat started on port(s): 8080 (http) with context path '']
+[2022-02-21 13:30:55.841] [INFO] [org.springframework.boot.StartupInfoLogger]: [61] [Started DemoApplication in 2.64 seconds (JVM running for 3.966)]
+[2022-02-21 13:31:50.154] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+[2022-02-21 13:31:50.155] [INFO] [org.springframework.web.servlet.FrameworkServlet]: [525] [Initializing Servlet 'dispatcherServlet']
+[2022-02-21 13:31:50.159] [INFO] [org.springframework.web.servlet.FrameworkServlet]: [547] [Completed initialization in 3 ms]
+[2022-02-21 13:31:51.228] [WARN] [org.apache.juli.logging.DirectJDKLog]: [173] [Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [968] milliseconds.]
+[2022-02-21 13:33:39.022] [INFO] [com.melita.demo.controller.CountryController]: [27] [Country detail api called]
+[2022-02-21 13:33:39.033] [INFO] [org.springframework.amqp.rabbit.connection.AbstractConnectionFactory]: [638] [Attempting to connect to: [localhost:5672]]
+[2022-02-21 13:33:39.170] [INFO] [org.springframework.amqp.rabbit.connection.AbstractConnectionFactory]: [589] [Created new connection: rabbitConnectionFactory#38cc44f9:0/SimpleConnection@e131f90 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 53011]]
+[2022-02-21 13:33:39.183] [INFO] [org.springframework.amqp.rabbit.core.RabbitAdmin]: [678] [Auto-declaring a non-durable, auto-delete, or exclusive Queue (demo.queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.]
+[2022-02-21 13:33:39.269] [INFO] [com.melita.demo.utill.RabbitMQMessageSender]: [24] [Send msg = helllo msg]
+[2022-02-21 13:34:10.249] [INFO] [com.melita.demo.controller.CountryController]: [27] [Country detail api called]
+[2022-02-21 13:34:10.250] [INFO] [com.melita.demo.utill.RabbitMQMessageSender]: [24] [Send msg = helllo msg]
+[2022-02-21 13:34:11.511] [INFO] [com.melita.demo.controller.CountryController]: [27] [Country detail api called]
+[2022-02-21 13:34:11.512] [INFO] [com.melita.demo.utill.RabbitMQMessageSender]: [24] [Send msg = helllo msg]
+[2022-02-21 13:34:12.486] [INFO] [com.melita.demo.controller.CountryController]: [27] [Country detail api called]
+[2022-02-21 13:34:12.488] [INFO] [com.melita.demo.utill.RabbitMQMessageSender]: [24] [Send msg = helllo msg]
+[2022-02-21 13:35:14.209] [INFO] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin]: [159] [Application shutdown requested.]
+[2022-02-21 16:45:37.676] [INFO] [org.springframework.boot.StartupInfoLogger]: [55] [Starting DemoApplication using Java 11.0.10 on LDEV-BASHARAT with PID 16228 (D:\Assignment\Melita\demo\target\classes started by basharat.ali in D:\Assignment\Melita\demo)]
+[2022-02-21 16:45:37.678] [INFO] [org.springframework.boot.SpringApplication]: [641] [The following profiles are active: dev]
+[2022-02-21 16:45:37.690] [INFO] [org.hibernate.validator.internal.util.Version]: [21] [HV000001: Hibernate Validator 6.2.0.Final]
+[2022-02-21 16:45:37.733] [INFO] [org.springframework.boot.logging.DeferredLog]: [255] [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+[2022-02-21 16:45:37.734] [INFO] [org.springframework.boot.logging.DeferredLog]: [255] [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+[2022-02-21 16:45:39.083] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: [108] [Tomcat initialized with port(s): 8080 (http)]
+[2022-02-21 16:45:39.093] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing ProtocolHandler ["http-nio-8080"]]
+[2022-02-21 16:45:39.093] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting service [Tomcat]]
+[2022-02-21 16:45:39.094] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting Servlet engine: [Apache Tomcat/9.0.56]]
+[2022-02-21 16:45:39.222] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing Spring embedded WebApplicationContext]
+[2022-02-21 16:45:39.222] [INFO] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: [290] [Root WebApplicationContext: initialization completed in 1487 ms]
+[2022-02-21 16:45:39.709] [INFO] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration]: [87] [
+
+Using generated security password: d02e03b9-8d34-429d-bb28-a31ac4edbcf3
+]
+[2022-02-21 16:45:39.804] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain]: [51] [Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35a92da, org.springframework.security.web.context.SecurityContextPersistenceFilter@43230d3d, org.springframework.security.web.header.HeaderWriterFilter@271303cc, org.springframework.security.web.authentication.logout.LogoutFilter@5ff57331, com.melita.demo.conf.JWTAuthorizationFilter@31a02a0f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b570aed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@731fac5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e1f935, org.springframework.security.web.session.SessionManagementFilter@17f2fb64, org.springframework.security.web.access.ExceptionTranslationFilter@608080a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b7187ea]]
+[2022-02-21 16:45:40.183] [INFO] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: [58] [LiveReload server is running on port 35729]
+[2022-02-21 16:45:40.273] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting ProtocolHandler ["http-nio-8080"]]
+[2022-02-21 16:45:40.296] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: [220] [Tomcat started on port(s): 8080 (http) with context path '']
+[2022-02-21 16:45:40.315] [INFO] [org.springframework.boot.StartupInfoLogger]: [61] [Started DemoApplication in 3.215 seconds (JVM running for 4.973)]
+[2022-02-21 16:45:53.138] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+[2022-02-21 16:45:53.138] [INFO] [org.springframework.web.servlet.FrameworkServlet]: [525] [Initializing Servlet 'dispatcherServlet']
+[2022-02-21 16:45:53.140] [INFO] [org.springframework.web.servlet.FrameworkServlet]: [547] [Completed initialization in 1 ms]
+[2022-02-21 16:52:57.729] [WARN] [org.apache.juli.logging.DirectJDKLog]: [173] [Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [367] milliseconds.]
+[2022-02-21 16:52:57.822] [WARN] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver]: [208] [Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "2021-11-06": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '2021-11-06' could not be parsed at index 10; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDateTime` from String "2021-11-06": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '2021-11-06' could not be parsed at index 10<EOL> at [Source: (PushbackInputStream); line: 7, column: 25] (through reference chain: com.melita.demo.dto.req.OrderSubmitReq["preferredDateTime"])]]
+[2022-02-21 16:59:56.187] [INFO] [com.melita.demo.controller.OrderController]: [30] [Order taking api called]
+[2022-02-21 16:59:56.201] [ERROR] [org.apache.juli.logging.DirectJDKLog]: [175] [Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content] with root cause]
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.melita.demo.dto.req.OrderSubmitReq["preferredDateTime"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1300)
+	at com.fasterxml.jackson.databind.ser.impl.UnsupportedTypeSerializer.serialize(UnsupportedTypeSerializer.java:35)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase._serializeWithObjectId(BeanSerializerBase.java:684)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:171)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4568)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsBytes(ObjectMapper.java:3844)
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.createMessage(AbstractJackson2MessageConverter.java:374)
+	at org.springframework.amqp.support.converter.AbstractMessageConverter.toMessage(AbstractMessageConverter.java:70)
+	at org.springframework.amqp.support.converter.AbstractMessageConverter.toMessage(AbstractMessageConverter.java:58)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertMessageIfNecessary(RabbitTemplate.java:1825)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:1140)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:1133)
+	at com.melita.demo.utill.RabbitMQMessageSender.send(RabbitMQMessageSender.java:23)
+	at com.melita.demo.service.impl.OrderServiceImpl.submitOrder(OrderServiceImpl.java:23)
+	at com.melita.demo.controller.OrderController.delete(OrderController.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at com.melita.demo.conf.JWTAuthorizationFilter.doFilterInternal(JWTAuthorizationFilter.java:44)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2022-02-21 17:00:29.922] [INFO] [com.melita.demo.controller.OrderController]: [30] [Order taking api called]
+[2022-02-21 17:00:29.923] [ERROR] [org.apache.juli.logging.DirectJDKLog]: [175] [Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content] with root cause]
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.melita.demo.dto.req.OrderSubmitReq["preferredDateTime"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1300)
+	at com.fasterxml.jackson.databind.ser.impl.UnsupportedTypeSerializer.serialize(UnsupportedTypeSerializer.java:35)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase._serializeWithObjectId(BeanSerializerBase.java:684)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:171)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4568)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsBytes(ObjectMapper.java:3844)
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.createMessage(AbstractJackson2MessageConverter.java:374)
+	at org.springframework.amqp.support.converter.AbstractMessageConverter.toMessage(AbstractMessageConverter.java:70)
+	at org.springframework.amqp.support.converter.AbstractMessageConverter.toMessage(AbstractMessageConverter.java:58)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertMessageIfNecessary(RabbitTemplate.java:1825)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:1140)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:1133)
+	at com.melita.demo.utill.RabbitMQMessageSender.send(RabbitMQMessageSender.java:23)
+	at com.melita.demo.service.impl.OrderServiceImpl.submitOrder(OrderServiceImpl.java:23)
+	at com.melita.demo.controller.OrderController.delete(OrderController.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at com.melita.demo.conf.JWTAuthorizationFilter.doFilterInternal(JWTAuthorizationFilter.java:44)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2022-02-21 17:03:40.387] [INFO] [org.springframework.boot.StartupInfoLogger]: [55] [Starting DemoApplication using Java 11.0.10 on LDEV-BASHARAT with PID 16228 (D:\Assignment\Melita\demo\target\classes started by basharat.ali in D:\Assignment\Melita\demo)]
+[2022-02-21 17:03:40.388] [INFO] [org.springframework.boot.SpringApplication]: [641] [The following profiles are active: dev]
+[2022-02-21 17:03:40.634] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: [108] [Tomcat initialized with port(s): 8080 (http)]
+[2022-02-21 17:03:40.635] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing ProtocolHandler ["http-nio-8080"]]
+[2022-02-21 17:03:40.635] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting service [Tomcat]]
+[2022-02-21 17:03:40.635] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting Servlet engine: [Apache Tomcat/9.0.56]]
+[2022-02-21 17:03:40.655] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing Spring embedded WebApplicationContext]
+[2022-02-21 17:03:40.655] [INFO] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: [290] [Root WebApplicationContext: initialization completed in 265 ms]
+[2022-02-21 17:03:40.731] [INFO] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration]: [87] [
+
+Using generated security password: c12dc8c3-dfdd-493f-befa-b7d32b8a8d4d
+]
+[2022-02-21 17:03:40.740] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain]: [51] [Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c7aaa0, org.springframework.security.web.context.SecurityContextPersistenceFilter@61d2b6f2, org.springframework.security.web.header.HeaderWriterFilter@6e96830b, org.springframework.security.web.authentication.logout.LogoutFilter@6b4f4e63, com.melita.demo.conf.JWTAuthorizationFilter@115479ce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c47af78, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@693f120, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b282d2f, org.springframework.security.web.session.SessionManagementFilter@794c0315, org.springframework.security.web.access.ExceptionTranslationFilter@3b00d50d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6bae79c1]]
+[2022-02-21 17:03:40.850] [INFO] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: [58] [LiveReload server is running on port 35729]
+[2022-02-21 17:03:40.871] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting ProtocolHandler ["http-nio-8080"]]
+[2022-02-21 17:03:40.873] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: [220] [Tomcat started on port(s): 8080 (http) with context path '']
+[2022-02-21 17:03:40.878] [INFO] [org.springframework.boot.StartupInfoLogger]: [61] [Started DemoApplication in 0.526 seconds (JVM running for 1085.537)]
+[2022-02-21 17:03:40.880] [INFO] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener]: [63] [Condition evaluation unchanged]
+[2022-02-21 17:03:53.594] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+[2022-02-21 17:03:53.596] [INFO] [org.springframework.web.servlet.FrameworkServlet]: [525] [Initializing Servlet 'dispatcherServlet']
+[2022-02-21 17:03:53.597] [INFO] [org.springframework.web.servlet.FrameworkServlet]: [547] [Completed initialization in 1 ms]
+[2022-02-21 17:03:53.616] [INFO] [com.melita.demo.controller.OrderController]: [30] [Order taking api called]
+[2022-02-21 17:03:53.620] [INFO] [org.springframework.amqp.rabbit.connection.AbstractConnectionFactory]: [638] [Attempting to connect to: [localhost:5672]]
+[2022-02-21 17:03:53.666] [INFO] [org.springframework.amqp.rabbit.connection.AbstractConnectionFactory]: [589] [Created new connection: rabbitConnectionFactory#45eba97a:0/SimpleConnection@62973b9d [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59157]]
+[2022-02-21 17:03:53.670] [INFO] [org.springframework.amqp.rabbit.core.RabbitAdmin]: [678] [Auto-declaring a non-durable, auto-delete, or exclusive Queue (demo.queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.]
+[2022-02-21 17:03:53.699] [INFO] [com.melita.demo.utill.RabbitMQMessageSender]: [24] [Send msg = OrderSubmitReq(personDetails=PersonalDetails(firstName=ali, lastName=ali), installationAddress=abc, preferredDateTime=2022-02-21T16:59:31.944390, product=tv, productPackage=TV with 90 Channels)]
+[2022-02-21 17:04:39.529] [WARN] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver]: [208] [Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.melita.demo.dto.responce.BaseResponseDto<?> com.melita.demo.controller.OrderController.delete(com.melita.demo.dto.req.OrderSubmitReq): [Field error in object 'orderSubmitReq' on field 'product': rejected value [null]; codes [NotNull.orderSubmitReq.product,NotNull.product,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [orderSubmitReq.product,product]; arguments []; default message [product]]; default message [product can not be null]] ]]
+[2022-02-21 17:05:08.535] [INFO] [com.melita.demo.controller.OrderController]: [30] [Order taking api called]
+[2022-02-21 17:05:08.536] [INFO] [com.melita.demo.utill.RabbitMQMessageSender]: [24] [Send msg = OrderSubmitReq(personDetails=PersonalDetails(firstName=abc, lastName=cde), installationAddress=abc, preferredDateTime=2022-02-21T16:59:31.944390, product=tv, productPackage=TV with 90 Channels)]
+[2022-02-21 17:05:31.732] [INFO] [org.springframework.boot.StartupInfoLogger]: [55] [Starting DemoApplication using Java 11.0.10 on LDEV-BASHARAT with PID 16228 (D:\Assignment\Melita\demo\target\classes started by basharat.ali in D:\Assignment\Melita\demo)]
+[2022-02-21 17:05:31.732] [INFO] [org.springframework.boot.SpringApplication]: [641] [The following profiles are active: dev]
+[2022-02-21 17:05:32.016] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: [108] [Tomcat initialized with port(s): 8080 (http)]
+[2022-02-21 17:05:32.016] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing ProtocolHandler ["http-nio-8080"]]
+[2022-02-21 17:05:32.017] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting service [Tomcat]]
+[2022-02-21 17:05:32.017] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting Servlet engine: [Apache Tomcat/9.0.56]]
+[2022-02-21 17:05:32.035] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing Spring embedded WebApplicationContext]
+[2022-02-21 17:05:32.036] [INFO] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: [290] [Root WebApplicationContext: initialization completed in 301 ms]
+[2022-02-21 17:05:32.088] [INFO] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration]: [87] [
+
+Using generated security password: 60850067-5e90-408b-8dcc-5902abdf82d3
+]
+[2022-02-21 17:05:32.093] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain]: [51] [Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@21592fd2, org.springframework.security.web.context.SecurityContextPersistenceFilter@4b4115ea, org.springframework.security.web.header.HeaderWriterFilter@30490ba8, org.springframework.security.web.authentication.logout.LogoutFilter@764e60f0, com.melita.demo.conf.JWTAuthorizationFilter@4977d3b9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@19967ee6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@617a3237, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29ee35f1, org.springframework.security.web.session.SessionManagementFilter@cfb06c5, org.springframework.security.web.access.ExceptionTranslationFilter@19f96f93, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2954d81e]]
+[2022-02-21 17:05:32.158] [INFO] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: [58] [LiveReload server is running on port 35729]
+[2022-02-21 17:05:32.173] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting ProtocolHandler ["http-nio-8080"]]
+[2022-02-21 17:05:32.175] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: [220] [Tomcat started on port(s): 8080 (http) with context path '']
+[2022-02-21 17:05:32.179] [INFO] [org.springframework.boot.StartupInfoLogger]: [61] [Started DemoApplication in 0.485 seconds (JVM running for 1196.838)]
+[2022-02-21 17:05:32.183] [INFO] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener]: [58] [Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   GenericCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.GenericCacheConfiguration automatic cache type (CacheCondition)
+
+   NoOpCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.NoOpCacheConfiguration automatic cache type (CacheCondition)
+
+
+Negative matches:
+-----------------
+
+   CacheAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.cache.interceptor.CacheAspectSupport; SearchStrategy: all) did not find any beans of type org.springframework.cache.interceptor.CacheAspectSupport (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.cache.CacheManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+]
+[2022-02-21 17:05:34.127] [INFO] [org.springframework.boot.StartupInfoLogger]: [55] [Starting DemoApplication using Java 11.0.10 on LDEV-BASHARAT with PID 16228 (D:\Assignment\Melita\demo\target\classes started by basharat.ali in D:\Assignment\Melita\demo)]
+[2022-02-21 17:05:34.127] [INFO] [org.springframework.boot.SpringApplication]: [641] [The following profiles are active: dev]
+[2022-02-21 17:05:34.315] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: [108] [Tomcat initialized with port(s): 8080 (http)]
+[2022-02-21 17:05:34.315] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing ProtocolHandler ["http-nio-8080"]]
+[2022-02-21 17:05:34.316] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting service [Tomcat]]
+[2022-02-21 17:05:34.316] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting Servlet engine: [Apache Tomcat/9.0.56]]
+[2022-02-21 17:05:34.379] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing Spring embedded WebApplicationContext]
+[2022-02-21 17:05:34.379] [INFO] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: [290] [Root WebApplicationContext: initialization completed in 250 ms]
+[2022-02-21 17:05:34.420] [INFO] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration]: [87] [
+
+Using generated security password: 445ceaf8-1000-45e5-b435-94228ae84cb3
+]
+[2022-02-21 17:05:34.425] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain]: [51] [Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@563cb979, org.springframework.security.web.context.SecurityContextPersistenceFilter@2dd9fcb8, org.springframework.security.web.header.HeaderWriterFilter@71033d2f, org.springframework.security.web.authentication.logout.LogoutFilter@468a8895, com.melita.demo.conf.JWTAuthorizationFilter@2eb90a95, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78405302, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1042e360, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@481ef492, org.springframework.security.web.session.SessionManagementFilter@69dbaf2c, org.springframework.security.web.access.ExceptionTranslationFilter@2bbfce77, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5bde1865]]
+[2022-02-21 17:05:34.484] [INFO] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: [58] [LiveReload server is running on port 35729]
+[2022-02-21 17:05:34.498] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting ProtocolHandler ["http-nio-8080"]]
+[2022-02-21 17:05:34.501] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: [220] [Tomcat started on port(s): 8080 (http) with context path '']
+[2022-02-21 17:05:34.506] [INFO] [org.springframework.boot.StartupInfoLogger]: [61] [Started DemoApplication in 0.408 seconds (JVM running for 1199.164)]
+[2022-02-21 17:05:34.507] [INFO] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener]: [63] [Condition evaluation unchanged]
+[2022-02-21 17:06:30.175] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+[2022-02-21 17:06:30.176] [INFO] [org.springframework.web.servlet.FrameworkServlet]: [525] [Initializing Servlet 'dispatcherServlet']
+[2022-02-21 17:06:30.177] [INFO] [org.springframework.web.servlet.FrameworkServlet]: [547] [Completed initialization in 1 ms]
+[2022-02-21 17:06:30.193] [INFO] [com.melita.demo.controller.OrderController]: [30] [Order taking api called]
+[2022-02-21 17:06:30.194] [INFO] [org.springframework.amqp.rabbit.connection.AbstractConnectionFactory]: [638] [Attempting to connect to: [localhost:5672]]
+[2022-02-21 17:06:30.202] [INFO] [org.springframework.amqp.rabbit.connection.AbstractConnectionFactory]: [589] [Created new connection: rabbitConnectionFactory#64cb9f3a:0/SimpleConnection@3476e481 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59293]]
+[2022-02-21 17:06:30.203] [INFO] [org.springframework.amqp.rabbit.core.RabbitAdmin]: [678] [Auto-declaring a non-durable, auto-delete, or exclusive Queue (demo.queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.]
+[2022-02-21 17:06:30.209] [INFO] [com.melita.demo.utill.RabbitMQMessageSender]: [24] [Send msg = OrderSubmitReq(personDetails=PersonalDetails(firstName=abc, lastName=cde), installationAddress=abc, preferredDateTime=2022-02-21T16:59:31.944390, product=tv, productPackage=TV with 90 Channels)]
+[2022-02-21 17:06:31.094] [INFO] [com.melita.demo.controller.OrderController]: [30] [Order taking api called]
+[2022-02-21 17:06:31.095] [INFO] [com.melita.demo.utill.RabbitMQMessageSender]: [24] [Send msg = OrderSubmitReq(personDetails=PersonalDetails(firstName=abc, lastName=cde), installationAddress=abc, preferredDateTime=2022-02-21T16:59:31.944390, product=tv, productPackage=TV with 90 Channels)]
+[2022-02-21 17:07:01.975] [INFO] [org.springframework.boot.StartupInfoLogger]: [55] [Starting DemoApplication using Java 11.0.10 on LDEV-BASHARAT with PID 16228 (D:\Assignment\Melita\demo\target\classes started by basharat.ali in D:\Assignment\Melita\demo)]
+[2022-02-21 17:07:01.975] [INFO] [org.springframework.boot.SpringApplication]: [641] [The following profiles are active: dev]
+[2022-02-21 17:07:02.172] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: [108] [Tomcat initialized with port(s): 8080 (http)]
+[2022-02-21 17:07:02.173] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing ProtocolHandler ["http-nio-8080"]]
+[2022-02-21 17:07:02.174] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting service [Tomcat]]
+[2022-02-21 17:07:02.174] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting Servlet engine: [Apache Tomcat/9.0.56]]
+[2022-02-21 17:07:02.229] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing Spring embedded WebApplicationContext]
+[2022-02-21 17:07:02.229] [INFO] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: [290] [Root WebApplicationContext: initialization completed in 253 ms]
+[2022-02-21 17:07:02.285] [INFO] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration]: [87] [
+
+Using generated security password: 6bebfb5c-e02e-450e-8058-48fcc91eae6a
+]
+[2022-02-21 17:07:02.292] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain]: [51] [Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@259ad9f2, org.springframework.security.web.context.SecurityContextPersistenceFilter@4589de80, org.springframework.security.web.header.HeaderWriterFilter@1eba7bc9, org.springframework.security.web.authentication.logout.LogoutFilter@2589dfc7, com.melita.demo.conf.JWTAuthorizationFilter@169f6b1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@536f5263, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e460ff4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e3d660, org.springframework.security.web.session.SessionManagementFilter@5eedcc86, org.springframework.security.web.access.ExceptionTranslationFilter@1cd14426, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@e8caf20]]
+[2022-02-21 17:07:02.360] [INFO] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: [58] [LiveReload server is running on port 35729]
+[2022-02-21 17:07:02.376] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Starting ProtocolHandler ["http-nio-8080"]]
+[2022-02-21 17:07:02.378] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: [220] [Tomcat started on port(s): 8080 (http) with context path '']
+[2022-02-21 17:07:02.382] [INFO] [org.springframework.boot.StartupInfoLogger]: [61] [Started DemoApplication in 0.433 seconds (JVM running for 1287.041)]
+[2022-02-21 17:07:02.383] [INFO] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener]: [63] [Condition evaluation unchanged]
+[2022-02-21 17:07:06.573] [INFO] [org.apache.juli.logging.DirectJDKLog]: [173] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+[2022-02-21 17:07:06.574] [INFO] [org.springframework.web.servlet.FrameworkServlet]: [525] [Initializing Servlet 'dispatcherServlet']
+[2022-02-21 17:07:06.575] [INFO] [org.springframework.web.servlet.FrameworkServlet]: [547] [Completed initialization in 1 ms]
+[2022-02-21 17:07:06.590] [INFO] [com.melita.demo.controller.OrderController]: [30] [Order taking api called]
+[2022-02-21 17:07:06.591] [INFO] [org.springframework.amqp.rabbit.connection.AbstractConnectionFactory]: [638] [Attempting to connect to: [localhost:5672]]
+[2022-02-21 17:07:06.599] [INFO] [org.springframework.amqp.rabbit.connection.AbstractConnectionFactory]: [589] [Created new connection: rabbitConnectionFactory#5e546ffd:0/SimpleConnection@5b0f8e92 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59324]]
+[2022-02-21 17:07:06.600] [INFO] [org.springframework.amqp.rabbit.core.RabbitAdmin]: [678] [Auto-declaring a non-durable, auto-delete, or exclusive Queue (demo.queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.]
+[2022-02-21 17:07:06.608] [INFO] [com.melita.demo.utill.RabbitMQMessageSender]: [24] [Send msg = OrderSubmitReq(personDetails=PersonalDetails(firstName=abc, lastName=cde), installationAddress=abc, preferredDateTime=2022-02-21T16:59:31.944390, product=tv, productPackage=TV with 90 Channels)]
+[2022-02-21 17:08:49.507] [INFO] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin]: [159] [Application shutdown requested.]
